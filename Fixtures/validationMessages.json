@@ -1,0 +1,7 @@
+{
+  "accountCreated": "Your account has been created, you can now login here",
+  "emptyField": "This field is require",
+  "invalidEmail": "No valid value provided",
+  "invalidPassword": "Password must contain 8 characters, 1 lowercase character, 1 upper case character, and 1 digit",
+  "existingEmail": "Error\nerror: This email already exists"
+}
