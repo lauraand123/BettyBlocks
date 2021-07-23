@@ -1,0 +1,13 @@
+The following issues and improvements are reported for the "CREATE ACCOUNT" page:
+Environment: CHROME 92.0.4515.107 / Windows 10
+
+Bugs:
+1. There is no "TERMS AND CONDITIONS" on the create account page. The user must know which personal data is saved and used by the page.
+2. Missing logo on the page
+3. The user can enter the email and password and leave the first name and last name empty and no validation is done when changing focus from one input to another, unless the 'create account' button is clicked. The validation does not work the same for the email and password field.
+4. User must not be allowed to enter more the 8 characters at password field.
+5. Stranger valid email addresses such as "much.”more\ unusual”@example.com" are not being validated when entered
+6. There are 2 messages displayed under the email input when an invalid email is entered: "Invalid value" and "No valid value provided". There should be only one message for invalid emails as both messages mean the same thing.
+
+Improvements:
+1. The divs must be rearranged as the overall image doe snot look quite ok, bad proportions.
