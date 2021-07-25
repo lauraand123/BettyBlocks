@@ -10,4 +10,4 @@ Bugs:
 6. There are 2 messages displayed under the email input when an invalid email is entered: "Invalid value" and "No valid value provided". There should be only one message for invalid emails as both messages mean the same thing.
 
 Improvements:
-1. The divs must be rearranged as the overall image doe snot look quite ok, bad proportions.
+1. The divs must be rearranged on the entire page as the overall image does not look quite ok, bad proportions.

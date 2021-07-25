@@ -1,6 +1,4 @@
-The chosen user story:
-"As a new customer I want to register a new account, so that I can use the application"
-Test cases:
+Test cases for the "Create Account" page (NOT ALL THESE TEST CASES WILL BE AUTOMATED):
 1. Verify that the link from the main page to "Create new account" page works
 2. Verify that the Registration page contains Title and the form having First Name, Last Name, Password, Email and the 'Create account' button
 3. Verify that Enter/Tab key works as a substitute for the "Create Account" button
@@ -11,9 +9,9 @@ Test cases:
 8. Verify that entering blank spaces on mandatory fields lead to validation error
 9. Verify that case sensitivity of Username (usually Username field should not follow case sensitivity – ‘test’ & ‘TEST’ acts same)
 10. Verify that system generates a validation message when entering existing email
-11. Verify that the character limit in all the fields (mainly username and password) based on business requirement (THIS IS NOT THE CASE)
-12. Verify that the username validation as per business requirement (in some application, username should not allow numeric and special characters)(NOT THE CASE)
-13. Verify that the validation of all the fields are as per business requirement (NOT THE CASE)
+11. Verify that the character limit in all the fields (mainly username and password) based on business requirement
+12. Verify that the username validation as per business requirement (in some application, username should not allow numeric and special characters)
+13. Verify that the validation of all the fields are as per business requirement
 14. Verify that the validation of email field by entering correct and incorrect emails
 15. Verify that leading and trailing spaces are trimmed after clicking on "Create Account" button
 16. Verify that the “terms and conditions” checkbox is unselected by default (depends on business logic, it may be selected or unselected) NOT THE CASE CAUSE THERE IS NONE--> THERE SHOULD BE ONE AS LONG AS YOU PROVIDE YOUR PERSONAL INFO
@@ -21,4 +19,4 @@ Test cases:
 18. Verify the password required rules are respected (including length, lower case, upper case and digits)
 19. Verify the show password button can be activated and deactivated
 20. Verify user can log in with a successfully registered account
-21. Verify page is responsive (check UI on mobile devices and different resolutions) THIS IS NOT TO BE AUTOMATED
+21. Verify page is responsive (check UI on mobile devices and different resolutions)
