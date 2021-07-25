@@ -12,8 +12,8 @@ Prerequisites: download and install node.js for your OS from https://nodejs.org/
 Install Testcafe locally or globally from a command shell:<br/>
 npm install -g testcafe<br/>
 
-Clone the repository using the following shell comand:<br/>
-git clone <br/>
+Clone the repository via SSH using the following shell comand:<br/>
+git clone git@github.com:lauraand123/BettyBlocks.git<br/>
 
 **Running the Test:**<br/>
 Call the following command in a command shell. Specify the target browser and file path:<br/>
