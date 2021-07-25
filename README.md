@@ -1,25 +1,25 @@
 # BettyBlocks
 
-**Purpose:**
-Write the test cases for the 'Create Account page' for https://ui-test-app.betty.app.
-Automate the test cases for the "As a new customer I want to register a new account, so that I can use the application" user story.
+**Purpose:**<br/>
+Write the test cases for the 'Create Account page' for https://ui-test-app.betty.app.<br/>
+Automate the test cases for the "As a new customer I want to register a new account, so that I can use the application" user story.<br/>
 
-**Framework:**
+**Framework:**<br/>
 Testcafe
 
-**Installation:**
-Prerequisites: download and install node.js for your OS from https://nodejs.org/en/download/.
-Install Tetscafe locally or globally from a command shell:
-npm install -g testcafe
+**Installation:**<br/>
+Prerequisites: download and install node.js for your OS from https://nodejs.org/en/download/.<br/>
+Install Testcafe locally or globally from a command shell:<br/>
+npm install -g testcafe<br/>
 
-Clone the repository usign the following shell comand:
-git clone 
+Clone the repository using the following shell comand:<br/>
+git clone <br/>
 
-**Running the Test:**
-Call the following command in a command shell. Specify the target browser and file path.
-testcafe chrome BettyBlocks/Tests/AccountRegistration.js
+**Running the Test:**<br/>
+Call the following command in a command shell. Specify the target browser and file path:<br/>
+testcafe chrome BettyBlocks/Tests/AccountRegistration.js<br/>
 
-**Viewing the Results**
-TestCafe outputs the results into the command shell by default.
+**Viewing the Results**<br/>
+TestCafe outputs the results into the command shell by default.<br/>
 
 
