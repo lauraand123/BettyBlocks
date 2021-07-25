@@ -7,13 +7,13 @@ Automate the test cases for the "As a new customer I want to register a new acco
 **Framework:**<br/>
 Testcafe
 
-**Installation:**<br/>
+**Setup:**<br/>
 Prerequisites: download and install node.js for your OS from https://nodejs.org/en/download/.<br/>
-Install Testcafe locally or globally from a command shell:<br/>
-npm install -g testcafe<br/>
 
 Clone the repository via SSH using the following shell comand:<br/>
 git clone git@github.com:lauraand123/BettyBlocks.git<br/>
+Run the following command to install all dependencies:</br>
+npm -i
 
 **Running the Test:**<br/>
 Call the following command in a command shell. Specify the target browser and file path:<br/>
