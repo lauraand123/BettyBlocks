@@ -13,6 +13,9 @@ Prerequisites: download and install node.js for your OS from https://nodejs.org/
 Clone the repository via SSH using the following shell comand:<br/>
 git clone git@github.com:lauraand123/BettyBlocks.git<br/>
 
+Install TestCafe globally:
+npm install -g testcafe
+
 Run the following command to install all dependencies:</br>
 npm -i<br/>
 
