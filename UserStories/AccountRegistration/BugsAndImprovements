@@ -8,6 +8,7 @@ Bugs:
 4. User must not be allowed to enter more the 8 characters at password field.
 5. Stranger valid email addresses such as "much.”more\ unusual”@example.com" are not being validated when entered
 6. There are 2 messages displayed under the email input when an invalid email is entered: "Invalid value" and "No valid value provided". There should be only one message for invalid emails as both messages mean the same thing.
+7. User should not ne allowed to enter password equal to firstName and lastname as it is not secure.
 
 Improvements:
 1. The divs must be rearranged on the entire page as the overall image does not look quite ok, bad proportions.

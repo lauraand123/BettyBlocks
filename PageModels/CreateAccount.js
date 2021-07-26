@@ -33,27 +33,46 @@ class CreateAccount {
         if (submitForm) await t.click(this.createAccountButton);
     }
 
-    async checkValidationMessages(options={}){
-        this.firstNameValidationMessage= options.firstNameValidationMessage;
+    async checkValidationMessages(options = {}) {
+        this.firstNameValidationMessage = options.firstNameValidationMessage;
         this.lastNameValidationMessage = options.lastNameValidationMessage;
-        this.emailValidationMessage= options.emailValidationMessage;
+        this.emailValidationMessage = options.emailValidationMessage;
         this.passwordValidationMessage = options.passwordValidationMessage;
-        if(options.firstNameValidationMessage) {
+
+        if (options.firstNameValidationMessage) {
             const firstNameValidationMessageBox = await Selector('label').withText('First Name').parent(0).find('p');
             await t.expect(firstNameValidationMessageBox.innerText).eql(this.firstNameValidationMessage);
         }
-        if(options.lastNameValidationMessage) {
+        if (options.lastNameValidationMessage) {
             const lastNameValidationMessageBox = await Selector('label').withText('First Name').parent(0).find('p');
             await t.expect(lastNameValidationMessageBox.innerText).eql(this.lastNameValidationMessage);
         }
-        if(options.emailValidationMessage) {
+        if (options.emailValidationMessage) {
             const emailValidationMessageBox = await Selector('label').withText('Email address').parent(0).find('p');
             await t.expect(emailValidationMessageBox.innerText).eql(this.emailValidationMessage);
         }
-        if(options.passwordValidationMessage) {
+        if (options.passwordValidationMessage) {
             const passwordValidationMessageBox = await Selector('label').withText('Email address').parent(0).find('p');
             await t.expect(passwordValidationMessageBox.innerText).eql(this.passwordValidationMessage);
         }
+    }
+
+    generateEmail() {
+        var strValues = "abcdefg12345";
+        var strEmail = "";
+        var strTmp;
+        for (var i = 0; i < 10; i++) {
+            strTmp = strValues.charAt(Math.round(strValues.length * Math.random()));
+            strEmail = strEmail + strTmp;
+        }
+        strTmp = "";
+        strEmail = strEmail + "@";
+        for (var j = 0; j < 8; j++) {
+            strTmp = strValues.charAt(Math.round(strValues.length * Math.random()));
+            strEmail = strEmail + strTmp;
+        }
+        strEmail = strEmail + ".com"
+        return strEmail;
     }
 }
 
