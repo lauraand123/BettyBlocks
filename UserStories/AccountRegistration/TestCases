@@ -20,3 +20,15 @@ Test cases for the "Create Account" page (NOT ALL THESE TEST CASES WILL BE AUTOM
 19. Verify the show password button can be activated and deactivated
 20. Verify user can log in with a successfully registered account
 21. Verify page is responsive (check UI on mobile devices and different resolutions)
+
+
+Test cases to be automated for the chosen user story:
+- Verify that the link from the main page to "Create new account" page works
+- Verify that the Registration page contains Title and the form having First Name, Last Name, Password, Email and the 'Create account' button
+- Verify the password required rules are respected (including length, lower case, upper case and digits)
+- Verify that clicking on "Create Account" button after entering all the mandatory fields, submits the data to the server
+- Verify that system generates a validation message when clicking on "Create Account" button without filling all the mandatory fields.
+- Verify that entering blank spaces on mandatory fields lead to validation error
+- Verify that system generates a validation message when entering existing email
+- Verify that the validation of email field by entering correct and incorrect emails
+- Verify user can log in with a successfully registered account
